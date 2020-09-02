@@ -1,19 +1,19 @@
 <template>
 	<div class="author">
 
-		<g-image alt="Author image" class="author__image" src="~/assets/images/author.jpg" width="180" height="180" blur="5" />
+		<g-image alt="Author image" class="author__image" src="https://s.gravatar.com/avatar/818865ad86503b963d619109d7dde432?s=180" width="360" height="360" blur="5" />
 
 		<h1 v-if="showTitle" class="author__site-title">
 			{{ $static.metadata.siteName }}
 		</h1>
 
 		<p class="author__intro">
-			A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.
+			My thoughts
 		</p>
 
 		<p class="author__links">
 			<a href="//twitter.com/gridsome">Follow on Twitter</a>
-			<a href="//github.com/gridsome/gridsome-starter-blog">GitHub</a>
+			<a href="//github.com/johananp">GitHub</a>
 		</p>
 
 	</div>
@@ -42,8 +42,8 @@ export default {
 
 	&__image {
 		border-radius: 100%;
-		width: 90px;
-		height: 90px;
+		width: 180px;
+		height: 180px;
 		margin-bottom: 1em;
 	}
 
